@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "tabby",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Tabby",
+  "description": "Expand the size of the tab list",
   "authors": [
-    "Me!"
+    "Fruitloopins"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.xbyz.tabby.Tabby"
     ]
   },
   "mixins": [
