@@ -13,6 +13,6 @@ public class TabSizeMixin {
 	}
 	@ModifyConstant(constant = @Constant(intValue = 20), method = "render")
 	private int modifyMaxRows(int MAX_ROWS) {
-		return 40;
+		return 35;
 	}
 }
