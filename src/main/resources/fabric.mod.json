@@ -4,13 +4,13 @@
   "version": "${version}",
 
   "name": "Tabby",
-  "description": "Expand the size of the tab list",
+  "description": "Alter the maximum amount of players and rows that can be displayed on the player list",
   "authors": [
     "Fruitloopins"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/Fruitloopins",
+    "sources": "https://github.com/Fruitloopins/Tabby"
   },
 
   "license": "CC0-1.0",

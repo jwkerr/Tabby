@@ -1,6 +1,8 @@
 package net.xbyz.tabby.mixin;
 
 import net.minecraft.client.gui.hud.PlayerListHud;
+import net.xbyz.tabby.Tabby;
+import net.xbyz.tabby.config.Config;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.Constant;
 import org.spongepowered.asm.mixin.injection.ModifyConstant;
@@ -9,10 +11,11 @@ import org.spongepowered.asm.mixin.injection.ModifyConstant;
 public class TabSizeMixin {
 	@ModifyConstant(constant = @Constant(longValue = 80L), method = "collectPlayerEntries")
 	private long modifyCount(long count) {
-		return 200L;
+		return Tabby.CONFIG.maxCount();
 	}
+
 	@ModifyConstant(constant = @Constant(intValue = 20), method = "render")
 	private int modifyMaxRows(int MAX_ROWS) {
-		return 35;
+		return Tabby.CONFIG.maxRows();
 	}
 }
