@@ -2,7 +2,6 @@ package net.xbyz.tabby.mixin;
 
 import net.minecraft.client.gui.hud.PlayerListHud;
 import net.xbyz.tabby.Tabby;
-import net.xbyz.tabby.config.Config;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.Constant;
 import org.spongepowered.asm.mixin.injection.ModifyConstant;
