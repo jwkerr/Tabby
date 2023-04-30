@@ -32,9 +32,9 @@ dependencies {
 
 	// modImplementation "net.fabricmc.fabric-api:fabric-api-deprecated:${project.fabric_version}"
 
-	modImplementation "io.wispforest:owo-lib:0.10.3+1.19.3"
-	include "io.wispforest:owo-sentinel:0.10.3+1.19.3"
-	annotationProcessor modImplementation("io.wispforest:owo-lib:0.10.3+1.19.3")
+	modImplementation "io.wispforest:owo-lib:0.10.3+1.19.4"
+	include "io.wispforest:owo-sentinel:0.10.3+1.19.4"
+	annotationProcessor modImplementation("io.wispforest:owo-lib:0.10.3+1.19.4")
 }
 
 base {
