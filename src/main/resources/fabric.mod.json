@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.xbyz.tabby.Tabby"
+    ],
+    "modmenu": [
+      "net.xbyz.tabby.config.ModMenuIntegration"
     ]
   },
   "mixins": [
