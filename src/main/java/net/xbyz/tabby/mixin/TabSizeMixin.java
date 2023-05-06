@@ -17,7 +17,7 @@ public class TabSizeMixin {
 	@ModifyConstant(constant = @Constant(longValue = 80L), method = "collectPlayerEntries")
 	private long modifyCount(long count) {
 		TabbyConfig config = AutoConfig.getConfigHolder(TabbyConfig.class).getConfig();
-		if (config.maxCount == 0) {
+		if (config.maxCount <= 0) {
 			return client.player.networkHandler.getListedPlayerListEntries().size();
 		}
 		return config.maxCount;
@@ -27,7 +27,7 @@ public class TabSizeMixin {
 	private int modifyMaxRows(int MAX_ROWS) {
 		TabbyConfig config = AutoConfig.getConfigHolder(TabbyConfig.class).getConfig();
 		if (config.adaptive) {
-			if (config.maxCount == 0) {
+			if (config.maxCount <= 0) {
 				int onlinePlayers = client.player.networkHandler.getListedPlayerListEntries().size();
 				return onlinePlayers / config.adaptiveDivisor;
 			}
