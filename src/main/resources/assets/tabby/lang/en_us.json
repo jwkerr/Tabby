@@ -1,0 +1,7 @@
+{
+  "text.autoconfig.Tabby.title": "Tabby Config",
+  "text.autoconfig.Tabby.option.maxCount": "Max Count",
+  "text.autoconfig.Tabby.option.maxRows": "Max Rows",
+  "text.autoconfig.Tabby.option.adaptive": "Adaptive",
+  "text.autoconfig.Tabby.option.adaptiveDivisor": "Adaptive Divisor"
+}
