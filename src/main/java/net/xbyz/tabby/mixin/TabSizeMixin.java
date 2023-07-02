@@ -29,10 +29,10 @@ public class TabSizeMixin {
 		if (config.adaptive) {
 			if (config.maxCount <= 0) {
 				int onlinePlayers = client.player.networkHandler.getListedPlayerListEntries().size();
-				return onlinePlayers / config.adaptiveDivisor;
+				return Math.max(1, onlinePlayers / config.adaptiveDivisor);
 			}
-			return (int) (config.maxCount / config.adaptiveDivisor);
+			return (int) Math.max(1, config.maxCount / config.adaptiveDivisor);
 		}
-		return config.maxRows;
+		return Math.max(1, config.maxRows);
 	}
 }
