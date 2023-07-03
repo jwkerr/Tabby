@@ -11,8 +11,7 @@
   "contact": {
     "homepage": "https://github.com/Fruitloopins",
     "sources": "https://github.com/Fruitloopins/Tabby",
-    "issues" : "https://github.com/Fruitloopins/Tabby/issues",
-    "discord" : "https://discord.gg/ey6ZvnwAJp"
+    "issues" : "https://github.com/Fruitloopins/Tabby/issues"
   },
 
   "license": "MIT",
@@ -34,7 +33,14 @@
   "depends": {
     "fabricloader": ">=0.14.17",
     "fabric-api": "*",
-    "minecraft": "~1.19.3",
+    "minecraft": "~1.20.1",
     "java": ">=17"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "Discord": "https://discord.gg/ey6ZvnwAJp"
+      }
+    }
   }
 }
