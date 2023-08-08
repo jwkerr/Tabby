@@ -6,7 +6,7 @@
   "mixins": [
   ],
   "client": [
-    "com.fwloopins.tabby.mixin.TabSizeMixin"
+    "TabSizeMixin"
   ],
   "injectors": {
     "defaultRequire": 1
