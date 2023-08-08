@@ -1,4 +1,4 @@
-package net.xbyz.tabby.config;
+package com.fwloopins.tabby.config;
 
 import me.shedaniel.autoconfig.ConfigData;
 import me.shedaniel.autoconfig.annotation.ConfigEntry;

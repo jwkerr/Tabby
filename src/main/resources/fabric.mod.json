@@ -20,10 +20,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.xbyz.tabby.Tabby"
+      "com.fwloopins.tabby.Tabby"
     ],
     "modmenu": [
-      "net.xbyz.tabby.config.ModMenuIntegration"
+      "com.fwloopins.tabby.config.ModMenuIntegration"
     ]
   },
   "mixins": [

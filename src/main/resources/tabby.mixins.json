@@ -1,12 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.xbyz.tabby.mixin",
+  "package": "com.fwloopins.tabby.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],
   "client": [
-    "TabSizeMixin"
+    "com.fwloopins.tabby.mixin.TabSizeMixin"
   ],
   "injectors": {
     "defaultRequire": 1

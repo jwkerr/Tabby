@@ -1,9 +1,9 @@
-package net.xbyz.tabby.mixin;
+package com.fwloopins.tabby.mixin;
 
+import com.fwloopins.tabby.config.TabbyConfig;
 import me.shedaniel.autoconfig.AutoConfig;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.hud.PlayerListHud;
-import net.xbyz.tabby.config.TabbyConfig;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;

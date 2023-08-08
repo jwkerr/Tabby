@@ -1,9 +1,9 @@
-package net.xbyz.tabby;
+package com.fwloopins.tabby;
 
+import com.fwloopins.tabby.config.TabbyConfig;
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.GsonConfigSerializer;
 import net.fabricmc.api.ModInitializer;
-import net.xbyz.tabby.config.TabbyConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
