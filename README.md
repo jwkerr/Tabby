@@ -4,16 +4,15 @@
 ---
 
 # Tabby
-Tabby is a highly customisable Fabric mod for Minecraft that adds extra utility to the tab list.
-
-Tabby adds many utilities to the tab list such as:
+Tabby is a highly customisable Fabric mod for Minecraft that adds extra utility to the tab list such as:
 - Configurable settings to change the amount of players shown and the amount of rows
 - A highly configurable file to define groups of name colours and formats, full RGB and Minecraft formatting, read [here](#groups-config) for setup help
 - Option to remove or change the headers and footers on tab, no more obnoxious advertising
 
 Join my Discord at https://discord.gg/ey6ZvnwAJp for support and discussion.
 
-<img src="src/main/resources/assets/tabby/img/Tabby.png" alt="Tabby" width="75%" height="75%">
+<p align="center">
+    <img src="src/main/resources/assets/tabby/img/Tabby.png" alt="Tabby" width="75%" height="75%">
 
 ## Installation
 Download the mod from [here](https://github.com/Fruitloopins/Tabby/releases/latest)
