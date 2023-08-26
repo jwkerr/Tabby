@@ -6,7 +6,8 @@
   "mixins": [
   ],
   "client": [
-    "TabMixin"
+    "TabSizeMixin",
+    "HighlightMixin"
   ],
   "injectors": {
     "defaultRequire": 1

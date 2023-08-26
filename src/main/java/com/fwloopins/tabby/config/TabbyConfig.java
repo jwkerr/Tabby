@@ -26,6 +26,10 @@ public class TabbyConfig implements ConfigData {
         @ConfigEntry.BoundedDiscrete(min = 1, max = 10)
         @Comment("The amount to divide the players online by to determine how many rows will be rendered when adaptive is set to true\nFormula: x / y = maxRows\nWhere x is the value of maxCount and y is the adaptiveDivisor value")
         public int adaptiveDivisor = 5;
+        @Comment("Change header to a custom string, leave blank for no change, write null for nothing to be rendered")
+        public String customHeader = "";
+        @Comment("Change footer to a custom string, leave blank for no change, write null for nothing to be rendered")
+        public String customFooter = "";
     }
 
     public static class Colour {
