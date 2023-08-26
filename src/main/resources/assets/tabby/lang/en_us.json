@@ -1,7 +1,20 @@
 {
   "text.autoconfig.Tabby.title": "Tabby Config",
-  "text.autoconfig.Tabby.option.maxCount": "Max Count",
-  "text.autoconfig.Tabby.option.maxRows": "Max Rows",
-  "text.autoconfig.Tabby.option.adaptive": "Adaptive",
-  "text.autoconfig.Tabby.option.adaptiveDivisor": "Adaptive Divisor"
+
+  "text.autoconfig.Tabby.category.General": "General",
+  "text.autoconfig.Tabby.option.general.maxCount": "Max Count",
+  "text.autoconfig.Tabby.option.general.maxRows": "Max Rows",
+  "text.autoconfig.Tabby.option.general.adaptive": "Adaptive",
+  "text.autoconfig.Tabby.option.general.adaptiveDivisor": "Adaptive Divisor",
+
+  "text.autoconfig.Tabby.category.Colour": "Colour",
+  "text.autoconfig.Tabby.option.colour.customColours": "Custom colours",
+  "text.autoconfig.Tabby.option.colour.namesOne": "First list of names",
+  "text.autoconfig.Tabby.option.colour.highlightColourOne": "First list's colour",
+  "text.autoconfig.Tabby.option.colour.namesTwo": "Second list of names",
+  "text.autoconfig.Tabby.option.colour.highlightColourTwo": "Second list's colour",
+  "text.autoconfig.Tabby.option.colour.namesThree": "Third list of names",
+  "text.autoconfig.Tabby.option.colour.highlightColourThree": "Third list's colour",
+  "text.autoconfig.Tabby.option.colour.namesFour": "Fourth list of names",
+  "text.autoconfig.Tabby.option.colour.highlightColourFour": "Fourth list's colour"
 }
