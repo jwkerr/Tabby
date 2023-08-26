@@ -1,0 +1,109 @@
+[
+  {
+    "group": "Owners",
+    "colour": "DARK_RED",
+    "bold": false,
+    "italic": false,
+    "underline": false,
+    "strikethrough": false,
+    "obfuscated": false,
+    "usernames": [
+      "Fix"
+    ]
+  },
+  {
+    "group": "Admins",
+    "colour": "DARK_AQUA",
+    "bold": false,
+    "italic": false,
+    "underline": false,
+    "strikethrough": false,
+    "obfuscated": false,
+    "usernames": [
+      "1212rah",
+      "CorruptedGreed",
+      "KarlOfDuty"
+    ]
+  },
+  {
+    "group": "Developers",
+    "colour": "AQUA",
+    "bold": false,
+    "italic": false,
+    "underline": false,
+    "strikethrough": false,
+    "obfuscated": false,
+    "usernames": [
+      "Fruitloopins",
+      "Warriorrr"
+    ]
+  },
+  {
+    "group": "Staff Managers",
+    "colour": "f1c40f",
+    "bold": false,
+    "italic": false,
+    "underline": false,
+    "strikethrough": false,
+    "obfuscated": false,
+    "usernames": [
+      "Proser",
+      "PolkadotBlueBear",
+      "WTDpuddles"
+    ]
+  },
+  {
+    "group": "Moderators",
+    "colour": "DARK_GREEN",
+    "bold": false,
+    "italic": false,
+    "underline": false,
+    "strikethrough": false,
+    "obfuscated": false,
+    "usernames": [
+      "32Andrew",
+      "__Zlatan__",
+      "aas5aa_OvO",
+      "Aehmett",
+      "linkeron1",
+      "Barbay1",
+      "BigshotWarrior",
+      "Coblobster",
+      "earlgreyteabag",
+      "girlygirlfiji",
+      "fabinostalgia",
+      "Gris_",
+      "KeijoDPutt",
+      "Knowlton",
+      "Mednis",
+      "Masrain",
+      "Professor__Pro",
+      "RAWRyoutube",
+      "RlZ58",
+      "ShindoiASU",
+      "SuperHappyBros",
+      "wishful_",
+      "XxSlayerMCxX",
+      "yellune",
+      "Shia_chan",
+      "Superaktif"
+    ]
+  },
+  {
+    "group": "Helpers",
+    "colour": "5bbb9b",
+    "bold": false,
+    "italic": false,
+    "underline": false,
+    "strikethrough": false,
+    "obfuscated": false,
+    "usernames": [
+      "32Breach",
+      "Creightor",
+      "dopecello",
+      "Lion_Of_Judah12",
+      "Lucas2011",
+      "Unbated"
+    ]
+  }
+]

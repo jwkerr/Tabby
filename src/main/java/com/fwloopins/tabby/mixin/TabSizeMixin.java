@@ -12,18 +12,11 @@ import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.*;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Objects;
-
 @Mixin(PlayerListHud.class)
 public abstract class TabSizeMixin {
 	@Shadow @Final private MinecraftClient client;
 	@Shadow public abstract void setFooter(@Nullable Text footer);
-
 	@Shadow public abstract void setHeader(@Nullable Text header);
-
 	@Unique
 	TabbyConfig config = AutoConfig.getConfigHolder(TabbyConfig.class).getConfig();
 
@@ -52,19 +45,19 @@ public abstract class TabSizeMixin {
 
 	@Unique
 	private void setHeaderAndFooter() {
-		if (!config.general.customHeader.isEmpty()) {
-			if (config.general.customHeader.equals("null")) {
+		if (!config.misc.customHeader.isEmpty()) {
+			if (config.misc.customHeader.equals("null")) {
 				setHeader(null);
 			} else {
-				setHeader(Text.of(config.general.customHeader));
+				setHeader(Text.of(config.misc.customHeader));
 			}
 		}
 
-		if (!config.general.customFooter.isEmpty()) {
-			if (config.general.customFooter.equals("null")) {
+		if (!config.misc.customFooter.isEmpty()) {
+			if (config.misc.customFooter.equals("null")) {
 				setFooter(null);
 			} else {
-				setFooter(Text.of(config.general.customFooter));
+				setFooter(Text.of(config.misc.customFooter));
 			}
 		}
 	}
