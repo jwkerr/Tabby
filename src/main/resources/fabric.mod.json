@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Tabby",
-  "description": "Alter the maximum amount of players and rows that can be displayed on the player list",
+  "description": "Tabby is a highly customisable Fabric mod for Minecraft that adds extra utility to the tab list",
   "authors": [
     "Fruitloopins"
   ],
