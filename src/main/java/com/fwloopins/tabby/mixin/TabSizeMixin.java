@@ -17,8 +17,7 @@ public abstract class TabSizeMixin {
 	@Shadow @Final private MinecraftClient client;
 	@Shadow public abstract void setFooter(@Nullable Text footer);
 	@Shadow public abstract void setHeader(@Nullable Text header);
-	@Unique
-	TabbyConfig config = AutoConfig.getConfigHolder(TabbyConfig.class).getConfig();
+	@Unique TabbyConfig config = AutoConfig.getConfigHolder(TabbyConfig.class).getConfig();
 
 	@ModifyConstant(constant = @Constant(longValue = 80L), method = "collectPlayerEntries")
 	private long modifyCount(long count) {
