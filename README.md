@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="src/main/resources/assets/tabby/img/Tabby.gif" alt="Tabby" width="10%" height="10%">
+  <img src="img/Tabby.gif" alt="Tabby" width="10%" height="10%">
 
 ---
 
@@ -12,7 +12,7 @@ Tabby is a highly customisable Fabric mod for Minecraft that adds extra utility 
 Join my Discord at https://discord.gg/ey6ZvnwAJp for support and discussion.
 
 <p align="center">
-    <img src="src/main/resources/assets/tabby/img/Tabby.png" alt="Tabby" width="75%" height="75%">
+    <img src="img/Tabby.png" alt="Tabby" width="75%" height="75%">
 
 ## Installation
 Download the mod from [here](https://github.com/Fruitloopins/Tabby/releases/latest)
