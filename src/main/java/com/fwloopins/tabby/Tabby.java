@@ -21,6 +21,14 @@ public class Tabby implements ModInitializer {
 
 		Reload.reload();
 
-		LOGGER.info("Tabby initialized");
+		logInfo("Tabby initialised");
+	}
+
+	public static void logInfo(String msg) {
+		LOGGER.info("[Tabby] " + msg);
+	}
+
+	public static void logError(String msg) {
+		LOGGER.error("[Tabby] " + msg);
 	}
 }

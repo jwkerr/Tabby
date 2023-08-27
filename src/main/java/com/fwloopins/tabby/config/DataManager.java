@@ -29,7 +29,7 @@ public class DataManager {
                 Files.copy(json, dir.resolve("groups.json"));
             }
         } catch (IOException e) {
-            Tabby.LOGGER.error("Failed to copy groups.json to " + dir, e);
+            Tabby.logError("Failed to copy groups.json to " + dir + "\n" + e);
         }
     }
 
@@ -40,7 +40,7 @@ public class DataManager {
 
             cachedJson = element.getAsJsonArray();
         } catch (IOException e) {
-            Tabby.LOGGER.error("Failed to read groups.json", e);
+            Tabby.logError("Failed to read groups.json\n" + e);
         }
     }
 

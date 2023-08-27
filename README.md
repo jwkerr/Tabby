@@ -26,6 +26,8 @@ You will most likely have some, or all of these dependencies installed if you al
 
 If you have never used or installed Fabric before, learn how to install it [here](https://fabricmc.net/wiki/install)
 
+Once you have downloaded all the above mods, place them in `.minecraft/mods`, read below for help with that.
+
 ### Navigating to .minecraft
 Read [here](https://minecraft.fandom.com/wiki/.minecraft#Locating_.minecraft) for a guide for your OS on how to do navigate to the .minecraft directory.
 
@@ -42,13 +44,13 @@ You are free to edit this file as you like, however, it is important that you fo
   {
     "group": "Friends",
     "colour": "GOLD",
-    "bold": false,
+    "bold": true,
     "italic": false,
-    "underline": false,
+    "underline": true,
     "strikethrough": false,
     "obfuscated": false,
     "usernames": [
-      "Fruitloopins",
+      "fed0ec4a-f1ad-4b97-9443-876391668b34",
       "Uberstrase"
     ]
   }
@@ -58,6 +60,7 @@ You are free to edit this file as you like, however, it is important that you fo
 If you don't understand what you are doing when editing this file you should just replace the default values I have already put there rather than attempting to start from scratch. If you have made an irreparable mistake you can delete the file or folder and restart your client to re-initialise the file.
 
 - "group" can be any string you like
+- UUIDs are a valid input for usernames
 - "colour" can be any of the colours listed [here](https://www.digminecraft.com/lists/color_list_pc.php) i.e. BLACK, DARK_AQUA, RED etc. or you can choose a hexadecimal number, i.e. 4A412A
 - All boolean values (bold-obfuscated) must be present even if you are not setting them to true
 

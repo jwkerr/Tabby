@@ -11,5 +11,6 @@
   "text.autoconfig.Tabby.option.misc.customColours": "Custom Colours",
   "text.autoconfig.Tabby.option.misc.customHeader": "Custom Header",
   "text.autoconfig.Tabby.option.misc.customFooter": "Custom Footer",
-  "text.autoconfig.Tabby.option.misc.reloadKey": "Reload Key"
+  "text.autoconfig.Tabby.option.misc.reloadKey": "Reload Key",
+  "text.autoconfig.Tabby.option.misc.debug": "Debug"
 }

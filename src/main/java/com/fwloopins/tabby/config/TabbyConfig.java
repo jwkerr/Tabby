@@ -37,5 +37,7 @@ public class TabbyConfig implements ConfigData {
         public String customFooter = "";
         @Comment("Keybinding to reload certain Tabby features")
         public int reloadKey = GLFW.GLFW_KEY_F9;
+        @Comment("Set to true to enable specific debug logs\nWill spam logs")
+        public boolean debug = false;
     }
 }
