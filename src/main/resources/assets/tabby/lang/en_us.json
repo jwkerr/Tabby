@@ -3,14 +3,27 @@
 
   "text.autoconfig.Tabby.category.General": "General",
   "text.autoconfig.Tabby.option.general.maxCount": "Max Count",
+  "text.autoconfig.Tabby.option.general.maxCount.@Tooltip": "The maximum players that can be rendered, set to 0 for the max to always be the current online player count",
   "text.autoconfig.Tabby.option.general.maxRows": "Max Rows",
+  "text.autoconfig.Tabby.option.general.maxRows.@Tooltip": "The maximum rows that can be rendered, this value is not used if adaptive is set to true",
   "text.autoconfig.Tabby.option.general.adaptive": "Adaptive",
+  "text.autoconfig.Tabby.option.general.adaptive.@Tooltip": "Set to true for the amount of rows to adapt based off how many players there are",
   "text.autoconfig.Tabby.option.general.adaptiveDivisor": "Adaptive Divisor",
+  "text.autoconfig.Tabby.option.general.adaptiveDivisor.@Tooltip[0]": "The amount to divide the players online by to determine how many rows will be rendered when adaptive is set to true",
+  "text.autoconfig.Tabby.option.general.adaptiveDivisor.@Tooltip[1]": "Formula: x / y = maxRows",
+  "text.autoconfig.Tabby.option.general.adaptiveDivisor.@Tooltip[2]": "Where x is the value of maxCount and y is the adaptiveDivisor value",
 
   "text.autoconfig.Tabby.category.Misc": "Misc",
   "text.autoconfig.Tabby.option.misc.customColours": "Custom Colours",
+  "text.autoconfig.Tabby.option.misc.customColours.@Tooltip[0]": "Set to true to enable custom highlight colours for specific names in tab",
+  "text.autoconfig.Tabby.option.misc.customColours.@Tooltip[1]": "Edit this at .minecraft/config/Tabby/groups.json",
   "text.autoconfig.Tabby.option.misc.customHeader": "Custom Header",
+  "text.autoconfig.Tabby.option.misc.customHeader.@Tooltip": "Change header to a custom string, leave blank for no change, write null for nothing to be rendered",
   "text.autoconfig.Tabby.option.misc.customFooter": "Custom Footer",
+  "text.autoconfig.Tabby.option.misc.customFooter.@Tooltip": "Change footer to a custom string, leave blank for no change, write null for nothing to be rendered",
   "text.autoconfig.Tabby.option.misc.reloadKey": "Reload Key",
-  "text.autoconfig.Tabby.option.misc.debug": "Debug"
+  "text.autoconfig.Tabby.option.misc.reloadKey.@Tooltip": "Keybinding to reload certain Tabby features",
+  "text.autoconfig.Tabby.option.misc.debug": "Debug",
+  "text.autoconfig.Tabby.option.misc.debug.@Tooltip[0]": "Set to true to enable specific debug logs",
+  "text.autoconfig.Tabby.option.misc.debug.@Tooltip[1]": "Will spam logs"
 }
