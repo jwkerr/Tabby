@@ -17,13 +17,13 @@
   "license": "MIT",
   "icon": "assets/tabby/icon.png",
 
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
-    "main": [
-      "com.fwloopins.tabby.Tabby"
+    "client": [
+      "com.fwloopins.tabby.client.TabbyClient"
     ],
     "modmenu": [
-      "com.fwloopins.tabby.config.ModMenuIntegration"
+      "com.fwloopins.tabby.client.config.ModMenuIntegration"
     ]
   },
   "mixins": [
