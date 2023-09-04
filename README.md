@@ -38,7 +38,7 @@ If you would like to customise the formatting of specific usernames in tab, you 
 
 Once you have reached the .minecraft directory, navigate to `.minecraft/config/Tabby`. You will find that there is already a file here named "groups.json", the groups defined by default in this file are staff of the server I develop for, EarthMC.
 
-You are free to edit this file as you like, however, it is important that you follow the structure I have laid out. Below is an example of the "bare minimum":
+You are free to edit this file as you like, however, it is important that you follow the structure I have laid out. Below is a simple example:
 ```json
 [
   {
@@ -57,11 +57,10 @@ You are free to edit this file as you like, however, it is important that you fo
 ]
 ```
 
-If you don't understand what you are doing when editing this file you should just replace the default values I have already put there rather than attempting to start from scratch. If you have made an irreparable mistake you can delete the file or folder and restart your client to re-initialise the file.
+If you don't understand what you are doing when editing this file you should just replace the default values I have already put there rather than attempting to start from scratch. If you have made an irreparable mistake you can delete the file or folder and restart your client or press F9 to re-initialise the file.
 
 - "group" can be any string you like
 - UUIDs are a valid input for usernames
 - "colour" can be any of the colours listed [here](https://www.digminecraft.com/lists/color_list_pc.php) i.e. BLACK, DARK_AQUA, RED etc. or you can choose a hexadecimal number, i.e. 4A412A
-- All boolean values (bold-obfuscated) must be present even if you are not setting them to true
 
 You can define as many groups as you like. If you make changes while in-game, you can press F9 to reload them on the fly. This is due to the JSON being cached to prevent lag.

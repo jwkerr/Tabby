@@ -1,4 +1,4 @@
-package com.fwloopins.tabby.config;
+package com.fwloopins.tabby.client.config;
 
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;

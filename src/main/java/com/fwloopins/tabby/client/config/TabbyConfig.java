@@ -1,4 +1,4 @@
-package com.fwloopins.tabby.config;
+package com.fwloopins.tabby.client.config;
 
 import me.shedaniel.autoconfig.ConfigData;
 import me.shedaniel.autoconfig.annotation.ConfigEntry;

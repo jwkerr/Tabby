@@ -1,6 +1,6 @@
-package com.fwloopins.tabby.config;
+package com.fwloopins.tabby.client.config;
 
-import com.fwloopins.tabby.Tabby;
+import com.fwloopins.tabby.client.TabbyClient;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
@@ -26,10 +26,11 @@ public class DataManager {
                 if (!Files.exists(dir))
                     Files.createDirectory(dir);
 
+                assert json != null;
                 Files.copy(json, dir.resolve("groups.json"));
             }
         } catch (IOException e) {
-            Tabby.logError("Failed to copy groups.json to " + dir + "\n" + e);
+            TabbyClient.logError("Failed to copy groups.json to " + dir + "\n" + e);
         }
     }
 
@@ -40,7 +41,7 @@ public class DataManager {
 
             cachedJson = element.getAsJsonArray();
         } catch (IOException e) {
-            Tabby.logError("Failed to read groups.json\n" + e);
+            TabbyClient.logError("Failed to read groups.json\n" + e);
         }
     }
 
