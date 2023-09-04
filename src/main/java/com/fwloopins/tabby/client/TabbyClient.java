@@ -35,7 +35,7 @@ public class TabbyClient implements ClientModInitializer {
 		LOGGER.error("[Tabby] " + msg);
 	}
 
-	public static void reload() {
+	private static void reload() {
 		TabbyConfig config = AutoConfig.getConfigHolder(TabbyConfig.class).getConfig();
 
 		KeyBinding reloadBinding = KeyBindingHelper.registerKeyBinding(new KeyBinding(

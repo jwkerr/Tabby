@@ -3,6 +3,8 @@
 
 ---
 
+![Discord](https://img.shields.io/discord/1050911331945037884?label=F.W.%20Loopins%20%26%20Sons) ![Modrinth Downloads](https://img.shields.io/modrinth/dt/tabby?label=Downloads%20on%20Modrinth)
+
 # Tabby
 Tabby is a highly customisable Fabric mod for Minecraft that adds extra utility to the tab list such as:
 - Configurable settings to change the amount of players shown and the amount of rows
