@@ -14,8 +14,8 @@
   "text.autoconfig.Tabby.option.general.adaptiveDivisor.@Tooltip[2]": "Where x is the value of maxCount and y is the adaptiveDivisor value",
 
   "text.autoconfig.Tabby.category.Misc": "Misc",
-  "text.autoconfig.Tabby.option.misc.customColours": "Custom Colors",
-  "text.autoconfig.Tabby.option.misc.customColours.@Tooltip[0]": "Set to true to enable custom highlight colors for specific names in tab",
+  "text.autoconfig.Tabby.option.misc.customColours": "Custom Colours",
+  "text.autoconfig.Tabby.option.misc.customColours.@Tooltip[0]": "Set to true to enable custom highlight colours for specific names in tab",
   "text.autoconfig.Tabby.option.misc.customColours.@Tooltip[1]": "Edit this at .minecraft/config/Tabby/groups.json",
   "text.autoconfig.Tabby.option.misc.customHeader": "Custom Header",
   "text.autoconfig.Tabby.option.misc.customHeader.@Tooltip": "Change header to a custom string, leave blank for no change, write null for nothing to be rendered",
