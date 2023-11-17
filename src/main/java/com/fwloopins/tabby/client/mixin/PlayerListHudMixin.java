@@ -28,7 +28,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @Mixin(PlayerListHud.class)
-public abstract class PlayerListHudMixin {
+public class PlayerListHudMixin {
 	@Shadow @Final private MinecraftClient client;
 	@Unique final List<String> colours = new ArrayList<>(Arrays.asList("DARK_RED", "RED", "GOLD", "YELLOW", "DARK_GREEN", "GREEN", "AQUA", "DARK_AQUA", "DARK_BLUE", "BLUE", "LIGHT_PURPLE", "DARK_PURPLE", "WHITE", "GRAY", "DARK_GRAY", "BLACK"));
 	@Shadow @Nullable private Text footer;
