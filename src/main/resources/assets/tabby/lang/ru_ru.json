@@ -1,0 +1,32 @@
+{
+  "text.autoconfig.Tabby.title": "Настройки Tabby",
+
+  "text.autoconfig.Tabby.category.General": "Основное",
+  "text.autoconfig.Tabby.option.general.maxCount": "Максимально игроков",
+  "text.autoconfig.Tabby.option.general.maxCount.@Tooltip": "Максимальное количество игроков, которые будут отображаться. Установите значение «0», чтобы видеть всех игроков.",
+  "text.autoconfig.Tabby.option.general.maxRows": "Максимально строк",
+  "text.autoconfig.Tabby.option.general.maxRows.@Tooltip": "Максимальное количество строк, которые будут отображаться. Это значение не используется, если включена настройка «Адаптивно».",
+  "text.autoconfig.Tabby.option.general.adaptive": "Адаптивно",
+  "text.autoconfig.Tabby.option.general.adaptive.@Tooltip": "Включите, чтобы количество строк зависело от количества игроков.",
+  "text.autoconfig.Tabby.option.general.adaptiveDivisor": "Адаптивный делитель",
+  "text.autoconfig.Tabby.option.general.adaptiveDivisor.@Tooltip[0]": "Значение для определения количества строк, которые будут отображены в зависимости от количества игроков, если включена настройка «Адаптивно».",
+  "text.autoconfig.Tabby.option.general.adaptiveDivisor.@Tooltip[1]": "Формула: x / y = число строк",
+  "text.autoconfig.Tabby.option.general.adaptiveDivisor.@Tooltip[2]": "Где x - значение «Максимально игроков», y - значение «Адаптивный делитель».",
+
+  "text.autoconfig.Tabby.category.Misc": "Разное",
+  "text.autoconfig.Tabby.option.misc.customColours": "Свои цвета",
+  "text.autoconfig.Tabby.option.misc.customColours.@Tooltip[0]": "Включите, чтобы изменить цвет ника у определённых игроков.",
+  "text.autoconfig.Tabby.option.misc.customColours.@Tooltip[1]": "Изменяется в «.minecraft/config/Tabby/groups.json».",
+  "text.autoconfig.Tabby.option.misc.customHeader": "Свой текст над списком игроков",
+  "text.autoconfig.Tabby.option.misc.customHeader.@Tooltip": "Изменяет текст над списком игроков на ваше значение. Оставьте пустым, если не хотите менять. Напишите «null», чтобы убрать полностью.",
+  "text.autoconfig.Tabby.option.misc.customFooter": "Свой текст под списком игроков",
+  "text.autoconfig.Tabby.option.misc.customFooter.@Tooltip": "Изменяет текст под списком игроков на ваше значение. Оставьте пустым, если не хотите менять. Напишите «null», чтобы убрать полностью.",
+  "text.autoconfig.Tabby.option.misc.reloadKey": "Клавиша перезагрузки",
+  "text.autoconfig.Tabby.option.misc.reloadKey.@Tooltip": "Номер клавиши, отвечающей за перезагрузку особых функций Tabby.",
+  "text.autoconfig.Tabby.option.misc.debug": "Отладка",
+  "text.autoconfig.Tabby.option.misc.debug.@Tooltip[0]": "Включите, чтобы отобразить особые данные.",
+  "text.autoconfig.Tabby.option.misc.debug.@Tooltip[1]": "Будет засорять логи.",
+
+  "modmenu.summaryTranslation.tabby":"Расширенная настройка списка игроков.",
+  "modmenu.descriptionTranslation.tabby":"Изменяйте отображение списка игроков по своему усмотрению."
+}
