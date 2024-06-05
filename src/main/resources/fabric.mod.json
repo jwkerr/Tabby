@@ -6,12 +6,13 @@
   "name": "Tabby",
   "description": "Tabby is a highly customisable Fabric mod for Minecraft that adds extra utility to the tab list",
   "authors": [
-    "Fruitloopins"
+    "Fruitloopins",
+    "FurnyGo"
   ],
   "contact": {
     "homepage": "https://github.com/Fruitloopins",
-    "sources": "https://github.com/Fruitloopins/Tabby",
-    "issues" : "https://github.com/Fruitloopins/Tabby/issues"
+    "sources": "https://github.com/FurnyGo/Tabby/tree/1.20.6",
+    "issues" : "https://github.com/FurnyGo/Tabby/issues"
   },
 
   "license": "MIT",
@@ -31,10 +32,10 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.17",
+    "fabricloader": ">=0.15.11",
     "fabric-api": "*",
-    "minecraft": "~1.20.1",
-    "java": ">=17"
+    "minecraft": ">=1.20.6",
+    "java": ">=21"
   },
   "custom": {
     "modmenu": {
